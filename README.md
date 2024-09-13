@@ -1,6 +1,6 @@
 
 
-:one:  Entitiy  -VO 
+### 1️⃣  Entitiy  -VO 
 
 ```java
 @Getter //다른 사람이 이용하지 못하게 setter는 안되서 -> data는 못쓰고 getter만
@@ -20,7 +20,7 @@ public class Member {
 
 ```
 
-:two: Mapper  -DAO
+### 2️⃣ Mapper  -DAO
 
 데이터베이스와 애플리케이션 간의 데이터를 변환하는 역할을 하는 객체
 
@@ -36,7 +36,7 @@ public interface MemberMapper {
 
 ```
 
-3️⃣ DTO - VO
+### 3️⃣ DTO - VO
 
 1. request(요청)
     
@@ -60,7 +60,7 @@ public interface MemberMapper {
     
 2. response(응답)
 
-4️⃣ Service
+### 4️⃣ Service
 
 1. Service -선언
     
@@ -92,7 +92,7 @@ public interface MemberMapper {
 
 service interface를 상속받아 사용
 
-5️⃣  Controller 
+### 5️⃣ Controller 
 
 - service를 가져다 쓴다.
 - spring은 의존성 주입을 해줘야 한다. `RequiredArgsConstructor`
