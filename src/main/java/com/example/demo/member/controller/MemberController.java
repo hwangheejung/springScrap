@@ -20,7 +20,9 @@ public class MemberController {
   //api 연결 
   @PostMapping("/create")
   public ResponseEntity<?> createMember(@RequestBody MemberCreate request){
+    System.out.println("1");
     memberService.createMember(request);
     return ResponseEntity.ok().body("성공");
-  } 
+  }
+
 }
