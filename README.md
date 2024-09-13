@@ -1,8 +1,6 @@
-#️⃣ 패키지 구성하기 
 
-![image](https://github.com/user-attachments/assets/24d3b8d1-24b3-47a9-8aac-0e983422f830)
 
-1️⃣  Entitiy  -VO 
+:one:  Entitiy  -VO 
 
 ```java
 @Getter //다른 사람이 이용하지 못하게 setter는 안되서 -> data는 못쓰고 getter만
@@ -22,7 +20,7 @@ public class Member {
 
 ```
 
-2️⃣ Mapper  -DAO
+:two: Mapper  -DAO
 
 데이터베이스와 애플리케이션 간의 데이터를 변환하는 역할을 하는 객체
 
